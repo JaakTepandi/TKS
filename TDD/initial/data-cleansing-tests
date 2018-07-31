@@ -1,0 +1,16 @@
+import unittest
+from data-cleansing-code import *
+
+class test_cleansing (unittest.TestCase):
+
+    def setUp(self):
+        self.dd = dc("f500e")
+
+    def test_name(self):
+        self.assertEqual(self.dd.name, "f500e")
+
+    def test_get_filename(self):
+        self.assertEqual(self.dd.get_filename(), "f500e.csv")
+
+    def test_file_ok(self):
+        self.assertEqual(self.dd.file_ok(), False)
