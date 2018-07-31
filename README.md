@@ -1,2 +1,2 @@
-# TKS
-TKS näited
+# SQ course
+Examples
