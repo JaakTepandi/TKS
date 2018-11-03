@@ -1,2 +1,1 @@
-# SQ course
-Examples
+# SQ examples
